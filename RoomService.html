@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FEEDY - Experiencias Únicas</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+    <style type="text/css">
+@media screen{
+#navbardropdown {
+}
+}
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container"><span class="col-2"><img class="rounded-circle" alt="FEEDY" src="images/logo.png"></span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mi Hotel</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="RoomService.html">Room Service</a>
+                <a class="dropdown-item" href="Notificar.html">Notificar Problema</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Restaurantes</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="Tapeo.html">Tapeo</a> <a class="dropdown-item" href="Vegetarianos.html">Vegetarianos</a>
+                <a class="dropdown-item" href="ConVistas.html">Con Vistas</a> </div>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Compras</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="GrandesSuperficies.html">Grandes Superficies</a> <a class="dropdown-item" href="Local.html">Local</a></div>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Espectáculos</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="Flamenco.html">Flamenco</a>
+                <a class="dropdown-item" href="Teatro.html">Teatro</a></div>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown6" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ocio</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="Bares.html">Bares</a> <a class="dropdown-item" href="#">Conciertos</a>
+                <a class="dropdown-item" href="OcioNocturno.html">Ocio Nocturno</a></div>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown7" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Audioguías</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+				  <a class="dropdown-item" href="Alhambra.html">Alhambra</a>
+				  <a class="dropdown-item" href="CapillaReal.html">Capilla Real</a>
+                <a class="dropdown-item" href="Cartuja.html">La Cartuja</a></div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+</ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/carrusel/hotel.jpg" alt="Hotel">
+                <div class="carousel-caption d-none d-md-block">
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	<hr>
+		 <font color="#0B0B3B" size="6"> <div align="center">Servicio de Habitaciones</div></font>
+      <hr>
+		 <p>El servicio de habitaciones está a su disposición las 24 horas al día. Puede realizar el pedido directamente desde la aplicación. El tiempo estimado de entrega es de <b>20 minutos</b>. Para cualquier cuestión puede consultar con nuestro restaurante marcando el <b>150</b>.</p>
+		<p><input type="text" name="habitacion">
+		 <p><b>APERITIVOS</b><br><br>
+    <input type="checkbox" name="aperitivo" value="1"> Nachos con queso 
+    <input type="checkbox" name="aperitivo" value="2"> Patatas Fritas 
+	<input type="checkbox" name="aperitivo" value="3"> Aceitunas 
+    <input type="checkbox" name="aperitivo" value="4"> Ensalada de pimientos 
+	<input type="checkbox" name="aperitivo" value="5"> Crema de Verduras
+  </p>
+		<p><b>PLATOS PRINCIPALES</b><br><br>
+    <input type="checkbox" name="principal" value="1"> Pepito de Ternera 
+    <input type="checkbox" name="principal" value="2"> Hambuerguesa de ternera
+	<input type="checkbox" name="principal" value="3"> Hamburguesa vegtariana
+    <input type="checkbox" name="principal" value="4"> Perrito Caliente
+	<input type="checkbox" name="principal" value="5"> Sandwich de Jamón y Quedo
+  </p>
+	<p><b>BEBIDAS</b><br><br>
+    <input type="checkbox" name="bebidas" value="1"> Agua  
+    <input type="checkbox" name="bebidas" value="2"> Cerveza
+	<input type="checkbox" name="bebidas" value="3"> Refresco Cola
+    <input type="checkbox" name="bebidas" value="4"> Refresco Naranja
+	<input type="checkbox" name="bebidas" value="5"> Refresco Limón
+    <input type="checkbox" name="bebidas" value="6"> Vino Tinto
+    <input type="checkbox" name="bebidas" value="7"> Vino Blanco
+  </p>
+		<p>¿Tiene alguna intolerancia alimenticia?:<br>
+    <textarea name="mensaje"></textarea>
+  </p>
+	<form action="Feedy_rrss.html">
+   <input type="submit" value="Confirmar pedido"></form>
+		</p>
+	  </div>
+    <hr>
+    <div class="container text-white bg-dark p-4">
+      <div class="row">
+        <div class="col-6 col-md-8 col-lg-7">
+          <div class="row text-center">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+              <ul class="list-unstyled">
+                <li class="btn-link"> <a>Mi Hotel</a> </li>
+                <li class="btn-link"> <a>Restaurantes</a> </li>
+                <li class="btn-link"> <a>Compras</a> </li>
+                <li class="btn-link"> <a>Espectáculos</a> </li>
+                <li class="btn-link"> <a>Ocio</a> </li>
+				<li class="btn-link"> <a>Audioguías</a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-5 col-6">
+          <address>
+            <strong>FEEDY Granada</strong><br>
+            Puerta Real, 2<br>
+            18001 Granada<br>
+            <abbr title="Phone">Teléfono:</abbr> 958.220.440
+          </address>
+          <address>
+            <strong>Contacto:</strong><br>
+            <a href="mailto:#">hola@feedy.es</a>
+          </address>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>
